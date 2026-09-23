@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="container">
+        
+        <input type="number" id="amount" placeholder="Enter amount">
+        <div class="convert-from">
+            <h3>Convert From</h3>
+            <select id="from-currency"> </select>
+            <img src="https://flagsapi.com/US/flat/64.png">
+        </div>
+        <div class="convert-to">
+            <h3>Convert To</h3>
+            <select id="to-currency"> </select>
+            <img src="https://flagsapi.com/PK/flat/64.png">
+            <br>
+            <button id="convert-btn">Get Exchange Rate</button>
+            <p id="result">Result: 0 PKR </p>
+        </div>
+        
+    </div>
+    <script src="codes.js"> </script>
+    <script src="app.js"></script>
+</body>
+</html>
